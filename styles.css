@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    margin: 0px;
+}
+
+header{
+    background-color: #0074d9;
+    font-size: 40px;
+    display: grid;
+    justify-content: center;
+    color: white;
+    padding: 12px;
+}
+
+
+#estados-brasil{
+    display: grid;
+    font-size: 14px;
+}
+
+#lista-estados ul{
+    list-style-type: none;
+    font-size: 22px;
+    display: grid;
+    justify-content: center;
+    gap: 12px;
+}
+
+#lista-estados a{
+    color: #333;
+    opacity: 1;
+}
+
+#lista-estados a:hover{
+   opacity: 0.8;
+}
+
+footer{
+    background-color: #333;
+    font-size: 16px;
+    justify-content: center;
+    display: grid;
+    color: white;
+    padding: 12px;
+    margin: 10px;
+}
